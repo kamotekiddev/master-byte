@@ -31,3 +31,11 @@ body {
     color: var(--foreground);
     font-family: var(--font-outfit);
 }
+
+.section-title {
+    @apply text-4xl mb-6;
+}
+
+.container {
+    @apply max-w-[1536px] mx-auto w-full;
+}

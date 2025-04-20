@@ -4,10 +4,10 @@ import AboutSummary from "./AboutSummary";
 
 function HomeSection() {
     return (
-        <div>
+        <>
             <HeroSection />
             <AboutSummary />
-        </div>
+        </>
     );
 }
 
